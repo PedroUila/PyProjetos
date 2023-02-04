@@ -21,4 +21,4 @@ if velocidade_check:
 if multa_radar01:
     print("O carro foi multado.")
 else:
-    print("Carro fora do radar.")
+    print("O carro passou.")
