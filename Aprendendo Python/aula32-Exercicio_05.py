@@ -16,28 +16,33 @@
 #     hora = int(hora)
 #     dia = hora >= 5 and hora < 12
 #     tarde = hora >= 12 and hora < 18
-#     noite = hora >= 18 or hora < 5
+#     noite = (hora >= 18 or hora < 5) and hora <= 23
 #     if dia:
 #         print("Bom dia!")
 #     elif tarde:
 #         print("Boa tarde!")
 #     elif noite:
 #         print("Boa noite!")
+#     else:
+#         print("Não conheço essa hora...")
 # except:
 #     print("Digite apenas as horas.")
 
 
 
 nome = input("Digite seu primeiro nome: ")
-try:
-    if len(nome) < 5:
+tamanho_nome = len(nome)
+
+if tamanho_nome > 1:
+    if tamanho_nome < 5:
         print("Seu nome é curto.")
-    elif len(nome) > 6:
+    elif tamanho_nome > 6:
         print("Seu nome é muito grande.")
     else:
         print("Seu nome é normal.")
-except:
+else:
     print("Digite seu nome.")
+
 
 
 
