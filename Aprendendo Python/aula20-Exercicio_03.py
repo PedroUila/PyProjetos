@@ -1,3 +1,5 @@
+
+
 primeiro_valor = input("Digite um valor: ")
 segundo_valor = input("Digite outro valor: ")
 int_primeiro_valor = int(primeiro_valor)
