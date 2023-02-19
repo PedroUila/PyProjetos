@@ -21,5 +21,6 @@ nome = lista.pop()
 lista.append(1233)
 del lista[-1]
 # lista.clear()
-lista.insert(100, 5)
+lista.insert(100, 5) # Nã existe o índice 100,
+# mas o python joga o valor para o último índice 
 print(lista[4])
